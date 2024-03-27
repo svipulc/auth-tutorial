@@ -12,7 +12,7 @@ import { ExitIcon } from "@radix-ui/react-icons";
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useCurrentUser } from "@/hooks/use-current-user";
-import LogoutButton from "./logout-button";
+import { LogoutButton } from "./logout-button";
 
 export default function UserButton() {
   const user = useCurrentUser();

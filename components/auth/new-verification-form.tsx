@@ -37,7 +37,7 @@ export default function NewVerificationForm() {
       onSubmit();
       numberOfRun = 1;
     }
-  }, []);
+  }, [onSubmit]);
 
   return (
     <CardWrapper
